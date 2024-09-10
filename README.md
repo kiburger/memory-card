@@ -14,7 +14,7 @@ Test your memory with our exciting Memory Card Game featuring characters from th
      - You earn one point.
    - If you click on a repetitive image:
      - The game stops.
-     - Your score is recorded.
+     - Your best score is updated and recorded.
 
 3. **Objective:**
    - Test and improve your memory by clicking only on images you have not selected before.
