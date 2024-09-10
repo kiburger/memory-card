@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  position: relative;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header layout */
+header {
+  background-color: #076769;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+header h1 {
+  color: rgb(216, 169, 30);
+}
+
+header .score-board {
+  color: #ebf34b;
+  font-weight: 600;
+}
+
+
+/* main layout */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  grid-gap: 30px;
+  place-content: space-between;
+  padding: 1em;
+  background-color:  #076769;
+}
+
+.card {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(110, 182, 100);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card:hover,
+.card:active {
+  box-shadow: 1px 1px 10px 10px rgb(94, 137, 7);
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-size: 1.1em;
+  text-align: center;
+  color: #801f6d;
+  padding: .5em;
+}
+
+/* footer layout */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  color: rgb(127, 116, 116);
+  background-color:#dee1fb
+}
