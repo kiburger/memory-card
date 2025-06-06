@@ -30,7 +30,7 @@ Test your memory with our exciting Memory Card Game featuring characters from th
 
 ## Try It Out
 
-[Play the Memory Card Game](https://rui-23.github.io/memory-card/)
+[Play the Memory Card Game](https://kiburger.github.io/memory-card/)
 
 Learn more about the series [here](https://en.wikipedia.org/wiki/The_Legend_of_Qin_(TV_series)).
 
